@@ -76,12 +76,12 @@ const HeroBanner = () => {
 
           {/* BIG HEADING START */}
           <div
-            className="flex justify-center text-center mt-14 mb-10 relative"
+            className="flex justify-center text-center mt-10 mb-1 relative"
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-[50px] md:text-[120px] 2xl:text-[160px] leading-[50px] md:leading-[125px]  2xl:leading-[192px] font-oswald uppercase">
+            <h1 className="text-[70px]  md:text-[120px] 2xl:text-[160px] leading-[90px] md:leading-[125px]  2xl:leading-[192px] font-oswald uppercase">
               I Am a creative Developer & Designer
               <br className="invisible md:visible" />
             </h1>
@@ -142,7 +142,7 @@ const HeroBanner = () => {
 
           {/* PERSON BLOCK START */}
           <div
-            className="w-[300px] md:w-[360px] 2xl:w-[475px] absolute bottom-0 left-[50%] -translate-x-1/2"
+            className="w-[300px] md:w-[360px] 2xl:w-[400px] absolute bottom-0 left-[50%] -translate-x-1/2"
             initial={{ y: 200, x: "-50%" }}
             animate={{ y: 0 }}
             transition={{ duration: 0.5 }}

@@ -7,6 +7,7 @@ import Instagram from "../assets/instagram.png";
 import LinkedIn from "../assets/linkedin.png";
 import { scrollTo } from "../helper";
 
+
 const Footer = () => {
   return (
     <div className="bg-[#F2F2F2]">
