@@ -57,7 +57,6 @@ const Skills = () => {
           <SkillIcon path={sk2} />
           <SkillIcon path={sk3} />
           <SkillIcon path={sk4} />
-          {/* add skill icon of netlify, vercel, firebase,scss*/}
           <SkillIcon path={sk5} />
           <SkillIcon path={sk6} />
           <SkillIcon path={sk7} />
